@@ -331,6 +331,7 @@ nav a:hover{
     overflow-x:auto;
     overflow-y:hidden;
     scroll-behavior:smooth;
+    margin-top: 50px;
 }
 /* .products-slider-with-price .products::-webkit-scrollbar{
     display : none;
