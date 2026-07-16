@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit, sans-serif;
+}
+body{
+    background: #fff;
+    text-align: center;
+    font-family: outfit;
+    min-height: 100vh;
+}
+.logo{
+    margin-top: 20px;
+}
+.signin-container{
+    max-width:400px ;
+    border:1px solid #d2d2d2;
+    margin:auto;
+    margin-top: 20px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.signin-title{
+    font-size: 22px;
+    font-weight: 400;
+}
+.input-lable{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.signin-container input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    font-size: 12px;
+    &:focus{
+        outline: 3px solid c2f2ff;
+    }
+}
+.signin-container button{
+    width: 100%;
+    height: 32px;
+    margin: 15px 0;
+    background: #ffd814;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover{
+        background: #ebc712;
+    }
+}
+.signin-text{
+    font-size: 15px;
+}
+.create1{
+     color: #007185;
+     font-size: 17px;
+     margin: 13px 0;
+       &:hover{
+        text-decoration: underline;
+        color: rgb(25, 25, 58);
+        cursor: pointer;
+    }
+}
+.signin-container p span{
+    color: #007185;
+    text-decoration: underline;
+    &:hover{
+        color: rgb(25, 25, 58);
+        cursor: pointer;
+    }
+}
+.signin-container hr{
+    margin-bottom: 14px;
+    border: none;
+    background: #d4d4d4;
+    height: 1px;
+}
+.signin-container h3{
+    margin-bottom: 14px;
+}
+.signin-container h2{
+    font-size: 15px;
+}
+.create{
+    color: #007185;
+    margin-top: 8px;
+    &:hover{
+        text-decoration: underline;
+        color: rgb(25, 25, 58);
+        cursor: pointer;
+    }
+}
+
+.signin-bottom{
+    max-width: 350px;
+    font-size: 13px;
+    color: #737373;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6px;
+}
+.signin-bottom hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+    width: 110px;
+}
+.signin-signup-button{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+    &:hover{
+        background: #f1f1f1;
+        cursor: pointer;
+    }
+}
+footer
+{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-top: 20px;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 20px;
+    background: linear-gradient(to bottom,#f4f4f4,#fff);
+    border: 2px solid #ededed;
+    font-size: 12px;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    
+}
+.footer-links a{
+    text-decoration: none;
+    color: #0066c0;
+      &:hover{
+        text-decoration: underline;
+        color: rgb(25, 25, 58);
+        cursor: pointer;
+    }
+
+}
+
+
